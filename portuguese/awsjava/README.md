@@ -138,6 +138,7 @@ Você pode executar sua função e avaliar os resultados:
 
 O [**projeto exemplo**](../../awsjava/src/main/java/guru/faas/lambda/signature/) tem tudo o que é necesário para criar um **uber jar** para o AWS Lambda. E você pode usar outro produto, como o [**API Gateway**](https://aws.amazon.com/pt/api-gateway/) para expor sua função para o mundo.
 
+
 ## Conclusão
 
 Menos código, menor complexidade! Você pode expor funções em menos de 1 minuto! Essa é a beleza do **FaaS**.
