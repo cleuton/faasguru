@@ -124,5 +124,21 @@ Isso produzirá um *Uber jar* que você poderá carregar na console AWS. [**Aces
 
 ![](../../images/awslambdaconsole.png)
 
-Selecione **Criar 
+Selecione **Criar função** e indique qual é o **Runtime**. Depois, faça **upload** do seu **jar**: 
+
+![](../../images/uploadzip.png)
+
+Finalmente, configure um evento de teste: 
+
+![](../../images/testevent.png)
+
+Você pode executar sua função e avaliar os resultados: 
+
+![](../../images/result.png)
+
+O [**projeto exemplo**](../../awsjava/src/main/java/guru/faas/lambda/signature/) tem tudo o que é necesário para criar um **uber jar** para o AWS Lambda. E você pode usar outro produto, como o [**API Gateway**](https://aws.amazon.com/pt/api-gateway/) para expor sua função para o mundo.
+
+## Conclusão
+
+Menos código, menor complexidade! Você pode expor funções em menos de 1 minuto! Essa é a beleza do **FaaS**.
 
