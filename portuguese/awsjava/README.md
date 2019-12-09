@@ -27,7 +27,7 @@ Para demonstrar o que estou dizendo, e mostrar uma saída viável, resolvi posta
 
 Este é um exemplo bem simples de aplicação. Um *Pojo* **Java** que verifica a assinatura digital de um texto. Eu já criei muitas versões deste pequeno componente, e vou compará-las aqui. 
 
-É um código muito simples mesmo. Vejamos o [**arquivo principal**](../../awsjava/src/main/java/guru/faas/lambda/signature/SignatureVerifier.java):
+É um código muito simples mesmo. Vejamos o [**arquivo principal**](https://github.com/cleuton/faasguru/tree/master/awsjava/src/main/java/guru/faas/lambda/signature/SignatureVerifier.java):
 
 ```
     public String myHandler(String textAndSignature, Context context) throws InvalidKeyException, KeyStoreException, NoSuchAlgorithmException, CertificateException, NoSuchProviderException, SignatureException, IOException, DecoderException {
@@ -114,7 +114,7 @@ Aqui a relação melhorou muito. O código essencial é 43% do código total.
 
 ## Como disponibilizar um Lambda em Java
 
-Compile o [**código fonte**](../../awsjava/src/main/java/guru/faas/lambda/signature/) com o comando: 
+Compile o [**código fonte**](https://github.com/cleuton/faasguru/tree/master/awsjava/src/main/java/guru/faas/lambda/signature) com o comando: 
 
 ```
 mvn clean package shade:shade
@@ -136,7 +136,8 @@ Você pode executar sua função e avaliar os resultados:
 
 ![](../../images/result.png)
 
-O [**projeto exemplo**](../../awsjava/src/main/java/guru/faas/lambda/signature/) tem tudo o que é necesário para criar um **uber jar** para o AWS Lambda. E você pode usar outro produto, como o [**API Gateway**](https://aws.amazon.com/pt/api-gateway/) para expor sua função para o mundo.
+awsjava/src/main/java/guru/faas/lambda/signature
+O [**projeto exemplo**](https://github.com/cleuton/faasguru/tree/master/awsjava/src/main/java/guru/faas/lambda/signature) tem tudo o que é necesário para criar um **uber jar** para o AWS Lambda. E você pode usar outro produto, como o [**API Gateway**](https://aws.amazon.com/pt/api-gateway/) para expor sua função para o mundo.
 
 
 ## Conclusão

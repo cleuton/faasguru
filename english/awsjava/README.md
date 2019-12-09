@@ -27,7 +27,7 @@ To demonstrate what I am saying, and show an alternative, I decided to post this
 
 This is a very simple example of application. A *Pojo* **Java** that verifies the digital signature of a text. I have already created many versions of this small component, and I will compare them here.
 
-It's a very simple code indeed. Let's look at the [**main file**](../../awsjava/src/main/java/guru/faas/lambda/signature/SignatureVerifier.java):
+It's a very simple code indeed. Let's look at the [**main file**](https://github.com/cleuton/faasguru/tree/master/awsjava/src/main/java/guru/faas/lambda/signature/SignatureVerifier.java):
 
 ```
     public String myHandler(String textAndSignature, Context context) throws InvalidKeyException, KeyStoreException, NoSuchAlgorithmException, CertificateException, NoSuchProviderException, SignatureException, IOException, DecoderException {
@@ -114,7 +114,7 @@ Here the relationship has improved a lot. The essential code is 43% of the total
 
 ## How to Make a Lambda Available in Java
 
-Compile the [**source code**](../../awsjava/src/main/java/guru/faas/lambda/signature/) with the command:
+Compile the [**source code**](https://github.com/cleuton/faasguru/tree/master/awsjava/src/main/java/guru/faas/lambda/signature) with the command:
 
 ```
 mvn clean package shade: shade
@@ -136,7 +136,7 @@ You can perform your function and evaluate the results:
 
 ![](../../images/result.png)
 
-The [**example project**](../../awsjava/src/main/java/guru/faas/lambda/signature/) has everything needed to create a **uber jar** for AWS Lambda. And you can use another product, such as [**API Gateway**](https://aws.amazon.com/api-gateway/) to expose your role to the world.
+The [**example project**](https://github.com/cleuton/faasguru/tree/master/awsjava/src/main/java/guru/faas/lambda/signature) has everything needed to create a **uber jar** for AWS Lambda. And you can use another product, such as [**API Gateway**](https://aws.amazon.com/api-gateway/) to expose your role to the world.
 
 
 ## Conclusion
