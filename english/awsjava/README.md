@@ -97,7 +97,7 @@ The essential code to verify the signature has 66 lines, this version has 248 li
 
 ## gRPC
 
-In this release, I created a [**gRPC  based service**](https://grpc.io/) and needed to create a load balancing engine using [**Apache Zookeeper**](https://zookeeper.apache.org/), but I will not consider this when count the lines of code, but I will have to consider the client lines of code, after all, it's part of the infrastructure. Although it is necessary, it is not essential. You can see this version [**in this folder**](https://github.com/cleuton/servicechoreography/tree/master/javaApp/grpcserverjava/src/main/java/com/obomprogrammer/grpc). Here are the numbers:
+In this release, I created a [**gRPC  based service**](https://grpc.io/) and needed to create a load balancing engine using [**Apache Zookeeper**](https://zookeeper.apache.org/), but I will not consider this when count the lines of code, but I will have to consider the client lines of code, after all, it's part of the infrastructure. Although it is necessary, it is not essential. You can see this version [**in this folder**](https://github.com/cleuton/servicechoreography/tree/master/javaApp/grpcserverjava/src/main/java/com/obomprogramador/grpc). Here are the numbers:
 
 - **Server**:
     - 426 lines of code!
