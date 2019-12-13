@@ -11,7 +11,7 @@ Software, tips and labs about FaaS and Serverless technology
 
 Let's create a Java function and serve it with **Open FaaS**, fully **Serverless**. This function is the one I used in the first article when I installed it on **AWS Lambda**. It gives the digital signature of a text.
 
-[**source code**](../../openfaas-java/src/main/java/com/openfaas/function/Handler.java) demonstrates how simple it is to create a function for the Open FaaS environment. :
+[**source code**](https://github.com/cleuton/faasguru/blob/master/openfaas-java/src/main/java/com/openfaas/function/Handler.java) demonstrates how simple it is to create a function for the Open FaaS environment. :
 
 ```
 import com.openfaas.model.IHandler;
