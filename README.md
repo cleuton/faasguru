@@ -5,7 +5,11 @@ Software, tips and labs about FaaS and Serverless technology
 
 ![](./faasguru1.jpeg)
 
-- ![](./images/new.png)**Open FaaS**:
+- ![](./images/new.png) **Open FaaS - Create Java functions**:
+    - [**PORTUGUÊS** Crie uma função **Java**](./portuguese/openfaas-java) 
+    - [**ENGLISH** Create a **Java** function](./english/openfaas-java)
+
+- **Open FaaS**:
     - [**PORTUGUÊS** Seu próprio ambiente **FaaS**](./portuguese/openfaas1) 
     - [**ENGLISH** Your own **Faas** platform](./english/openfaas1)
 
