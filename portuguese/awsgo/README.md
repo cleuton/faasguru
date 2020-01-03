@@ -54,6 +54,12 @@ Para nós, interessa apenas o que vem depois do sinal de igual ("=") que é a as
 
 ## O Código Go
 
+Antes de mais nada, é preciso instalar uma dependência: [**AWS Lambda API para Go**](https://docs.aws.amazon.com/lambda/latest/dg/go-programming-model-handler-types.html): 
+
+```
+go get github.com/aws/aws-lambda-go/lambda
+```
+
 O [**código**](https://github.com/cleuton/faasguru/blob/master/awsgo/handler.go) implementa uma função de verificação de assinatura e um **handler** AWS. Eu usei os pacotes **crypto** e **encoding** para ler a chave pública e verificar a assinatura. Primeiramente, preciso carregar o arquivo **public.pem** e extrair a chave pública. Isso é feito na função **loadKey()**: 
 
 ```

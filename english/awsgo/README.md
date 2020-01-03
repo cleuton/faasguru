@@ -53,6 +53,12 @@ I'll use only the hexadecimal string after the equal ("=") sign.
 
 ## The Go Code
 
+Before start coding, a dependency is necessary: [**AWS Go Lambda API**](https://docs.aws.amazon.com/lambda/latest/dg/go-programming-model-handler-types.html): 
+
+```
+go get github.com/aws/aws-lambda-go/lambda
+```
+
 The [**code**](https://github.com/cleuton/faasguru/blob/master/awsgo/handler.go) implements a signature verification function and an **AWS handler**. I used the **crypto** and **encoding** packages to read the public key and verify the signature. First, I need to load the **public.pem** file and extract the public key. This is done in the **loadKey()** function:
 
 ```

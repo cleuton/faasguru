@@ -5,6 +5,10 @@ Software, tips and labs about FaaS and Serverless technology
 
 ![](./faasguru1.jpeg)
 
+- ![](./images/new.png)**API Gateway + AWS Lambda + Go**:
+    - [**PORTUGUÊS** Expondo uma função Go com AWS Lambda e AWS API Gateway](./portuguese/awsapigateway) 
+    - [**ENGLISH** Deploying a Go API with AWS Lambda and API Gateway](./english/awsapigateway)
+
 - ![](./images/new.png)**AWS Lambda using Go**:
     - [**PORTUGUÊS** Criando verificação de assinatura em **Go**](./portuguese/awsgo) 
     - [**ENGLISH** Create signature verifier using **Go**](./english/awsgo)
