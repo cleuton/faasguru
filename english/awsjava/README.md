@@ -19,7 +19,7 @@ I always say that 80% of your code is boilerplate. Ok, it may be overkill (and i
 
 Despite being *boilerplate* this code is not simple and not harmless! Big problems can arise if you inadvertently make a mistake or change something. Therefore, you need to know what you are doing and to know all the technologies involved in order to avoid problems.
 
-I estimate a developer will waist between 50% and 80% of his time and effort (and cost) concerned with infrastructure code, including study, proof of concept, and so on.
+I estimate a developer will waste between 50% and 80% of his time and effort (and cost) concerned with infrastructure code, including study, proof of concept, and so on.
 
 To demonstrate what I am saying, and show an alternative, I decided to post this article.
 
