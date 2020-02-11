@@ -5,7 +5,7 @@ Software, tips and labs about FaaS and Serverless technology
 
 ![](./faasguru1.jpeg)
 
-![](./banner_livros2.png)
+[![](./banner_livros2.png)](https://www.lcm.com.br/site/#livros/busca?term=cleuton)
 
 - ![](./images/new.png)**API Gateway + AWS Lambda + Go**:
     - [**PORTUGUÊS** Expondo uma função Go com AWS Lambda e AWS API Gateway](./portuguese/awsapigateway) 
