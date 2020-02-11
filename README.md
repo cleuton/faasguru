@@ -5,6 +5,8 @@ Software, tips and labs about FaaS and Serverless technology
 
 ![](./faasguru1.jpeg)
 
+![](./banner_livros2.png)
+
 - ![](./images/new.png)**API Gateway + AWS Lambda + Go**:
     - [**PORTUGUÊS** Expondo uma função Go com AWS Lambda e AWS API Gateway](./portuguese/awsapigateway) 
     - [**ENGLISH** Deploying a Go API with AWS Lambda and API Gateway](./english/awsapigateway)
