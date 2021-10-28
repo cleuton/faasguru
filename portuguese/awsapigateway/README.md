@@ -9,7 +9,7 @@ Software, tips and labs about FaaS and Serverless technology
 
 ![](../../images/apigateway.png)
 
-Fala sério, cara! Em 15 minutos eu implantei aquela [função de verificação de assinatura em Go](http://faas.guru/portuguese/awsgo/) e a exportei como uma API usando os serviços do AWS: Lambda e API Gateway. Nada pode ser mais simples! (e tudo isso escutando **Iron Maiden**, **Pantera** e **Motorhead**). 
+Fala sério, cara! Em 15 minutos eu implantei aquela [função de verificação de assinatura em Go](https://github.com/cleuton/faasguru/tree/master/awsgo) e a exportei como uma API usando os serviços do AWS: Lambda e API Gateway. Nada pode ser mais simples! (e tudo isso escutando **Iron Maiden**, **Pantera** e **Motorhead**). 
 
 É isso que significa **FaaS**!
 
